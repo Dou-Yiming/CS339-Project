@@ -11,6 +11,10 @@ The structure of this project can be depicted by the following figure:
 
 <img src="figs\structure.png" alt="image-20211213101655113" style="zoom:50%;" />
 
+The final product using 3D printing technology:
+
+<img src="figs\product.jpg" alt="image-20211213101655113" style="zoom:20%;" />
+
 For more details about the design and implementation of light-U, please refer to [this paper](https://github.com/Dou-Yiming/CS339-Project/blob/main/Light-U%20Mobile%20Storage%20Device%20Based%20on%20Visible%20Light%20Communication.pdf)
 
 Group members:
