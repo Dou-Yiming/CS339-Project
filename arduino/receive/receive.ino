@@ -10,19 +10,19 @@ int id = 0;
 
 int get_state(int intensity)
 {
-  if (intensity > 450) // 0
+  if (intensity > 550) // 0
     return 0;
   else
     return 1;
 }
 void setup() //程序初始化
 {
-  Serial.begin(115200); //设置波特率9600
+  Serial.begin(9600); //设置波特率9600
 }
 void loop() //程序主体循环
 {
   Intensity = analogRead(AD5); //读取模拟口AD5的值，存入Intensity变量
-                               //  Serial.println(Intensity);
+//  Serial.println(Intensity);                               
   cur_time = millis();
   cur_state = get_state(Intensity);
   if (cur_state != state) // state change

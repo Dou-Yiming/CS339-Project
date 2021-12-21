@@ -6,7 +6,7 @@ from enum import Enum
 import numpy as np
 from PIL import Image
 
-from serialcommunication import process
+# from serialcommunication import process
 
 intensity_list = []
 state_list = []
@@ -114,7 +114,7 @@ def loop():
 
 if __name__ == '__main__':
     # read data
-    serial = SerialCommunication(port='com5', baud_rate=115200, timeout=0.5)
+    serial = SerialCommunication(port='com5', baud_rate=9600, timeout=0.5)
     serial.openSerial()
     while True:
         if loop():
