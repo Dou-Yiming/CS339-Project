@@ -1,5 +1,5 @@
 # Light-U: A Mobile Storage Device Based on Visible Light Communication
-<img src="figs\lightU.png" alt="image-20211213100820927" style="zoom: 33%;" />
+<img src="figs\lightU.png" width="500" />
 
 This is the project of SJTU-CS339-Computer Network. 
 
@@ -9,11 +9,11 @@ Different from traditional mobile storage devices that use wires to transmit dat
 
 The structure of this project can be depicted by the following figure:
 
-<img src="figs\structure.png" alt="image-20211213101655113" style="zoom:50%;" />
+<img src="figs\structure.png" width="400" />
 
 The final product using 3D printing technology:
 
-<img src="figs\product.jpg" alt="image-20211213101655113" style="zoom:20%;" />
+<img src="figs\product.jpg" width="300" />
 
 For more details about the design and implementation of light-U, please refer to [this paper](https://github.com/Dou-Yiming/CS339-Project/blob/main/Light-U%20Mobile%20Storage%20Device%20Based%20on%20Visible%20Light%20Communication.pdf)
 
